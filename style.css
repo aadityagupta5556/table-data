@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: aquamarine;
+    text-align: center;
+}
+#name{
+margin-top: 70px;
+
+}
+.one{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: 004d00;
+}
+#button{
+
+    width:150px ;
+    height:40px ;margin-top: 10px;
+    font-size: 23;
+    font-family:sans-serif ;
+}
+#display{
+
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 50px ;
+    margin-left: 350px;
+    background-color: burlywood;
+
+}
+table, th, td{
+    border: 2px solid black;
+    padding: 10px;
+
+}
+th{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: sans-serif;
+  color: blue;
+}
+td{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: sans-serif;
+  color:greenyellow;
+}

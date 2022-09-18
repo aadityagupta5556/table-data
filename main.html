@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dynamic datatable</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="name" class="one">
+          Name:  <input type="text" name="name" placeholder="plz enter your name" id="name">
+        </div>
+
+        <div id="age" class="one">
+          Age:  <input type="number" name="age" placeholder="plz enter your age" id="age">
+        </div>
+
+        <div id="grade" class="one">
+           grade: <input type="text" name="grade" placeholder="plz enter your grade" id="grade">
+        </div>
+
+        <div>
+            <button id="button" onclick="displayDetails()"> Add item</button>
+        </div>
+
+    </div>
+
+    <table id="display">
+        <tr>
+     <th>Name</th>
+     <th>Age</th>
+     <th>Grade</th>
+
+
+        </tr>
+
+
+
+    </table>
+
+
+<script src="script.js"></script>
+</body>
+</html>
